@@ -2,9 +2,6 @@
     "folders": [
         {
             "path": "../../git_test/html-boilerplate"
-        },
-        {
-            "path": ".."
         }
     ]
 }
