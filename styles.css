@@ -4,5 +4,8 @@ div {
   }
   
   h1 {
-    color: red;
+    font-family: Arial, 'Comic Sans MS', sans-serif;
+    color: whitesmoke;
+    background-color: brown;
+    text-align: center;
   }
