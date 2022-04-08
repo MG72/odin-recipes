@@ -16,36 +16,31 @@ h1 {
 .flex-container {
   display: flex;
 }
-.flex-item {
-  background: peachpuff;
-  border: 2px solid brown;
-  flex: 0 1 25%;
-  margin: 4px;
-  padding: 8px;
-}
 .flex-container1 {
   display: block;
   background: peachpuff;
   border: 2px solid brown;
-  flex: 1 1 0%;
+  flex: 0 0 auto;
+  width: 300px;
   margin: 4px;
   padding: 2px;
 }
-.flex-item1 {
-  background: rgb(145, 214, 162);
-  border: 2px solid rgb(42, 165, 138);
-  flex: 1 1 0%;
-  margin: 2px;
-  padding: 8px;
-}
-.flex-item2 {
+.flex-item {
   background: peachpuff;
   border: 2px solid brown;
-  flex: 2 1 0%;
+  flex: 1 1 0;
   margin: 4px;
+  padding: 8px;
+}
+.flex-item1 {
+  background: rgb(145, 214, 162);
+  border: 0px solid rgb(42, 165, 138);
+  flex: 1 1 auto;
   padding: 8px;
 }
 
 img {
-  width: 250px;
+  width: 100%;
+  height: auto;
+
 }
